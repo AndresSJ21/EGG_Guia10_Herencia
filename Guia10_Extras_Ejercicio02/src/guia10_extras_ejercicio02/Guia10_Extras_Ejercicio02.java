@@ -1,6 +1,10 @@
 
 package guia10_extras_ejercicio02;
 
+import Entidades.Edificio;
+import Utilidades.Orchestrator;
+import java.util.ArrayList;
+
 
 /*
 * Desarrollador: Andrés Panella
@@ -10,7 +14,10 @@ public class Guia10_Extras_Ejercicio02 {
 
 
     public static void main(String[] args) {
-        
+        Orchestrator o = new Orchestrator();
+        ArrayList<Edificio> e = new ArrayList<Edificio>();
+        e=o.creaEdificios();
+        System.out.println(o.datosEdificios(e));
     }
 
 }

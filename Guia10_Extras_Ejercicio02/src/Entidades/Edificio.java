@@ -51,8 +51,13 @@ public abstract class Edificio {
     
     
     //metodos abstractos
-    public abstract double calcularSuperficie(double ancho, double largo);
-    public abstract double calcularVolumen(double ancho, double largo, double alto);
+    public abstract double calcularSuperficie();
+
+    /**
+     *
+     * @return
+     */
+    public abstract double calcularVolumen();
     
     //toString
     @Override

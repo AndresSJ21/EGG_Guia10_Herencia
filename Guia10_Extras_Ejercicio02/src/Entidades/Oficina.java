@@ -68,10 +68,7 @@ public class Oficina {
     
     @Override
     public String toString (){
-        return "Oficina:\n"
-                + "  Identificacion: " + idOficina + "\n"
-                + "  Piso: " + piso + "\n"
-                + "  Factor de Ocupacion: " + factorOcupacion;
+        return "Oficina: " + idOficina + ", Piso: " + piso +  ", Factor de Ocupacion: " + factorOcupacion+"\n";
     }
     
     
